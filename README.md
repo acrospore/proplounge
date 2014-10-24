@@ -1,9 +1,5 @@
 proplounge
 ==========
-Prop's thing.
+PropLounge developer branch.
 
-it's good
-
-you should try it some time
-
-dev
+Use this branch to make changes and then upload it to Master.
