@@ -1,0 +1,29 @@
+<head>
+	<script src="jquery-1.11.1.min.js"></script>
+	<style>
+		@font-face{
+			font-family: ubuntu;
+			src: url("Ubuntu-L.ttf");
+		}
+		body{
+			min-width: 250px;
+			font-family: ubuntu;
+			text-align:center;
+		}
+	</style>
+</head>
+<body>
+    <h3><u><center>Hey.</center></u></h3>
+    <p>
+    	Version <b>1.3</b><br>
+    	<a href="http://prawp.x10.mx/proplounge.html">PropLounge</a><br>
+    	<a href="#" id="options">Options</a>
+    </p>
+
+    <script>
+    	var opUrl = chrome.extension.getURL('options.html');
+    	$("#options").click(function(){
+    		chrome.tabs.create({url: opUrl});
+    	});
+    </script>
+</body>

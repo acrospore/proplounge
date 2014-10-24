@@ -1,0 +1,27 @@
+{
+    "name": "PropLounge",
+    "version": "1.3",
+    "description": "A simple extension to improve your CSGOLounge experience.",
+    "manifest_version": 2,
+    "options_page": "options.html",
+    "web_accessible_resources": ["*.*"],
+    "permissions": [
+        "storage"
+    ],
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches":["http://csgolounge.com/*"],
+            "css": ["proplounge.css"],
+            "js":["jquery-1.11.1.min.js", "cesttoest.js", "usingproplounge.js", "css.js"]
+        },
+        {
+            "matches":["http://csgolounge.com/availableweapons*"],
+            "js":["jquery-1.11.1.min.js", "availableweapons.js"],
+            "run_at": "document_end"
+        }
+    ]
+}

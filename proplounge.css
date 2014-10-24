@@ -1,0 +1,91 @@
+.Covert, .Classified, .Restricted, .Mil-Spec, .Industrial, .Consumer{
+	background: black !important;
+	color: white !important;
+	border-top-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+}
+.item{
+	background: #363636 !important;
+	border: 1px solid white;
+}
+form{
+	box-shadow: 3px 3px 1px #a4a4a4 !important;
+	border: 1px solid white !important;
+}
+section.box, .tradeheader, body, .matchheader, #submenu, .bpheader{
+	background: url('chrome-extension://__MSG_@@extension_id__/image/noise1.png') !important;
+	border-top: 0 !important;
+} 
+form, nav#submenu > div > a, .name, header, div.match, .teamtext, .bpheader a, div#queue, .winsorloses, .gradient, .box-shiny-alt, .box-shiny{
+	background: url("chrome-extension://__MSG_@@extension_id__/image/noise2.png") !important;
+	color: white !important;
+}
+.whenm{
+	color: white !important;
+	text-shadow: 1px 1px 1px darkgrey !important;
+}
+#freeze{
+	border:0;
+}
+.bpheader{
+	color: white;
+}
+.match{
+	border: 1px solid white !important;
+}
+nav#submenu > div > a {
+	border: 1px solid white;
+	margin-top: 1px;
+	transition: 0.25s all;
+}
+nav#submenu > div a:hover{
+	transform: translate(5px, 5px);
+}
+nav#submenu > div a:active{
+	color: darkgrey !important;
+}
+footer{
+	margin-top: 10px !important;
+}
+.name{
+	border: 1px solid white;
+}
+.name a{
+	color: white !important;
+}
+.value{
+	color: white !important;
+	background: black !important;
+}
+marketname, price{
+	color: white !important;
+}
+.match, form.right, form.left{
+	transition: 0.25s all;
+}
+.match:hover, form.right:hover, form.left:hover{
+	transform: translate(5px, 5px);
+}
+.matchleft a div, .half a span{
+	color: white;
+}
+.bpheader a, a.buttonright, .button center{
+	color: white !important;
+}
+.match, .tradecnt form{
+	border-radius: 0 !important;
+}
+article.standard div, .betheader .user{
+	color: white !important;
+}
+.potwin b{
+	color: red;
+}
+body{
+	color: white !important;
+}
+a.buttonright, .button{
+	color: black !important;
+	border-radius: 0 !important;
+	text-shadow: 0 !important;
+}
